@@ -1,0 +1,23 @@
+{
+	"id": "uuid",
+	"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/jd/icon.png",
+	"name": "京东",
+	"desc": "京东多合一签到",
+	"cookie": "",
+	"version": "1.0.0",
+	"create_time": "",
+	"timestamp": "",
+	"addons": [
+		{
+			"id": "uuid",
+			"name": "金豆领取",
+			"request_type": "GET",
+			"url": "https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld",
+			"headers": "cookie=test",
+			"result_pattern": "code",
+			"create_time": "",
+			"timestamp": ""
+		},
+		[]
+	]
+}
