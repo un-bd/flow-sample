@@ -6,8 +6,8 @@
 			"id": "1",
 			"name": "京东",
 			"desc": "京东多合一签到",
-			"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/jd/icon.png",
-			"url": "https://raw.githubusercontent.com/un-bd/flow-sample/jd/index.json",
+			"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/icon.png",
+			"url": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/index.json",
 			"version": "1.0.0"
 		},
 		{

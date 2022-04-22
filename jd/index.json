@@ -1,6 +1,6 @@
 {
 	"id": "uuid",
-	"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/jd/icon.png",
+	"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/icon.png",
 	"name": "京东",
 	"desc": "京东多合一签到",
 	"cookie": "",
