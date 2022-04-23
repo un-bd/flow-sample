@@ -5,7 +5,7 @@
 		{
 			"id": "1",
 			"name": "京东",
-			"desc": "京东多合一签到",
+			"description": "京东多合一签到",
 			"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/icon.png",
 			"url": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/index.json",
 			"version": "1.0.0"
@@ -13,7 +13,7 @@
 		{
 			"id": "2",
 			"name": "百度贴吧",
-			"desc": "百度贴吧签到",
+			"description": "百度贴吧签到",
 			"icon": "https://github.com/un-bd/flow-sample/jd/baidu.png",
 			"url": "https://github.com/un-bd/flow-sample/jd/baidu.json",
 			"version": "1.0.0"
