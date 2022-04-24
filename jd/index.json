@@ -3,7 +3,8 @@
 	"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/icon.png",
 	"name": "京东",
 	"description": "京东多合一签到",
-	"cookie": "https://home.m.jd.com/myJd/newhome.action",
+	"cookie_url": "https://home.m.jd.com/myJd/newhome.action",
+	"cookie": "",
 	"version": "1.0.0",
 	"create_time": "",
 	"timestamp": "",
@@ -14,7 +15,7 @@
 			"request_type": "GET",
 			"url": "https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld",
 			"headers": "cookie=test",
-			"result_pattern": "code",
+			"result_pattern": "\"errorMessage\":\"用户未登录\"|title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"awardDesc\":\"*[0-9]*京豆\"",
 			"create_time": "",
 			"timestamp": ""
 		},
