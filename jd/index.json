@@ -15,7 +15,7 @@
 			"request_type": "GET",
 			"url": "https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld",
 			"headers": "cookie=test",
-			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\": \"*[0-9]*\"|\"awardDesc\":\"*[0-9]*京豆\"|\"errorMessage\":\"用户未登录\"",
+			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\":\"*[0-3]*\"|\"errorMessage\":\"用户未登录\"",
 			"create_time": "",
 			"timestamp": ""
 		},
