@@ -1,5 +1,5 @@
 {
-	"id": "uuid",
+	"id": "1a8d02ed-9cb8-420a-ba21-c8d4c29d5014",
 	"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/icon.png",
 	"name": "京东",
 	"description": "京东多合一签到",
@@ -10,15 +10,43 @@
 	"timestamp": "",
 	"addons": [
 		{
-			"id": "uuid",
+			"id": "c44076de-043c-5f5c-b2f6-4a13a17609e4",
+			"pid": "1a8d02ed-9cb8-420a-ba21-c8d4c29d5014",
 			"name": "金豆领取",
-			"request_type": "GET",
+			"request_type": "POST",
 			"url": "https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld",
 			"headers": "{\"cookie\":\"$cookie\"}",
 			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\":\"*[0-3]*\"|\"errorMessage\":\"用户未登录\"",
 			"create_time": "",
 			"timestamp": ""
 		},
-		{}
+		{
+			"id": "9735431f-0d48-5a91-9a89-74178f797070",
+			"pid": "1a8d02ed-9cb8-420a-ba21-c8d4c29d5014",
+			"name": "京东超市",
+			"request_type": "POST",
+			"url": "https://api.m.jd.com/api?appid=jdsupermarket&functionId=smtg_sign&clientVersion=8.0.0&client=m&body=%7B%7D",
+			"headers": "{\"cookie\":\"$cookie\"}",
+			"result_pattern": "",
+			"create_time": "",
+			"timestamp": ""
+		},
+		{
+			"id": "777642ee-b2a6-4173-92e4-d90946a90f27",
+			"pid": "1a8d02ed-9cb8-420a-ba21-c8d4c29d5014",
+			"name": "京东超市",
+			"request_type": "POST",
+			"url": "https://api.m.jd.com/api?appid=jdsupermarket&functionId=smtg_sign&clientVersion=8.0.0&client=m&body=%7B%7D",
+			"headers": "{\"cookie\":\"$cookie\"}",
+			"result_pattern": "",
+
+			"name": "京东闪购",
+			"request_type": "POST",
+			"url": "https://api.m.jd.com/client.action?functionId=partitionJdSgin&body=%7B%22version%22%3A%22v2%22%7D&client=apple&clientVersion=9.0.8&openudid=1fce88cd05c42fe2b054e846f11bdf33f016d676&sign=6768e2cf625427615dd89649dd367d41&st=1597248593305&sv=121",
+			"headers": "{\"cookie\":\"$cookie\"}",
+			"result_pattern": "",
+			"create_time": "",
+			"timestamp": ""
+		}
 	]
 }

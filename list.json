@@ -3,7 +3,7 @@
 	"desc": "Flow 官方仓库",
 	"addons": [
 		{
-			"id": "1",
+			"id": "d7fa570d-0c51-58c4-b030-22cb14a93af3",
 			"name": "京东",
 			"description": "京东多合一签到",
 			"icon": "https://raw.githubusercontent.com/un-bd/flow-sample/master/jd/icon.png",
@@ -11,7 +11,7 @@
 			"version": "1.0.0"
 		},
 		{
-			"id": "2",
+			"id": "165fadcb-437a-5e9c-9b14-65a7900e387c",
 			"name": "百度贴吧",
 			"description": "百度贴吧签到",
 			"icon": "https://github.com/un-bd/flow-sample/jd/baidu.png",
