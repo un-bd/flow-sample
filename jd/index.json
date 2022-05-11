@@ -14,8 +14,8 @@
 			"request_type": "POST",
 			"url": "https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld",
 			"headers": "{\"cookie\":\"$cookie\"}",
-			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\":\"*[0-3]*\"|\"errorMessage\":\"用户未登录\"",
-		,
+			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\":\"*[0-3]*\"|\"errorMessage\":\"用户未登录\""
+		},
 		{
 			"id": "9735431f-0d48-5a91-9a89-74178f797070",
 			"pid": "1a8d02ed-9cb8-420a-ba21-c8d4c29d5014",
