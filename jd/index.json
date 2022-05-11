@@ -6,6 +6,7 @@
 	"cookie_url": "https://home.m.jd.com/myJd/newhome.action",
 	"cookie": "",
 	"version": "1.0.0",
+	"create_time": "2022-05-11 19:44:51",
 	"addons": [
 		{
 			"id": "c44076de-043c-5f5c-b2f6-4a13a17609e4",
@@ -14,7 +15,8 @@
 			"request_type": "POST",
 			"url": "https://api.m.jd.com/client.action?functionId=signBeanIndex&appid=ld",
 			"headers": "{\"cookie\":\"$cookie\"}",
-			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\":\"*[0-3]*\"|\"errorMessage\":\"用户未登录\""
+			"result_pattern": "\"title\":\"今天已签到，\"|\"title\":\"签到成功，\"|\"beanCount\":\"*[0-3]*\"|\"errorMessage\":\"用户未登录\"",
+			"create_time": "2022-05-11 19:44:51"
 		},
 		{
 			"id": "9735431f-0d48-5a91-9a89-74178f797070",
@@ -23,7 +25,8 @@
 			"request_type": "POST",
 			"url": "https://api.m.jd.com/api?appid=jdsupermarket&functionId=smtg_sign&clientVersion=8.0.0&client=m&body=%7B%7D",
 			"headers": "{\"cookie\":\"$cookie\",\"origin\":\"https://jdsupermarket.jd.com\"}",
-			"result_pattern": ""
+			"result_pattern": "",
+			"create_time": "2022-05-11 19:44:52"
 		},
 		{
 			"id": "9735431f-0d48-5a91-9a89-74178f79707x",
@@ -32,7 +35,8 @@
 			"request_type": "POST",
 			"url": "https://api.m.jd.com/api?functionId=getChannelTaskRewardToM&appid=h5-live&body=%7B%22type%22%3A%22signTask%22%2C%22itemId%22%3A%221%22%7D",
 			"headers": "{\"cookie\":\"$cookie\",\"origin\":\"https://h.m.jd.com\"}",
-			"result_pattern": ""
+			"result_pattern": "",
+			"create_time": "2022-05-11 19:44:53"
 		}
 	]
 }
